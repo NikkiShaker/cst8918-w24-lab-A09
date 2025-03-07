@@ -1,6 +1,3 @@
-echo "Running terraform fmt..."
 terraform fmt -check -recursive
-echo "Running terraform validate..."
 terraform validate
-echo "Running tflint..."
 tflint
