@@ -1,0 +1,22 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore the crash log
+crash.log
+
+# Ignore .terraform directory (plugin caches, etc.)
+.terraform/
+
+# Node modules directory
+node_modules/
+
+# GitHub Actions logs
+*.log
+
+# VSCode workspace settings
+.vscode/
+
+# IntelliJ IDEA settings
+.idea/
+
