@@ -20,6 +20,9 @@ resource "azurerm_storage_account" "example" {
   account_replication_type = "LRS"
 }
 
+
+
+
 terraform {
   required_version = ">= 1.0"
 }
