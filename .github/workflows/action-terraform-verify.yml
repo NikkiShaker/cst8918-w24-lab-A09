@@ -58,6 +58,11 @@ jobs:
             exit 1  # Ensure the workflow stops if terraform validate fails
           fi
 
+      - name: Force failure step
+        run: |
+          echo "Forcing failure for testing purposes"
+          exit 1  # This step forces the failure to occur
+
       - name: Process check
         if: always()
         run: |
